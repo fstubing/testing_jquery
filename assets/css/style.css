@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --oscuro: #373a3c;
+  --extra: #dddddd;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+}
+
+.cabin-regular {
+  font-family: "Cabin", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+}
+
+.hero-section {
+  gap: 16px;
+}
+
+.hero-titulo {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  width: 425px;
+}
+
+.hero-parrafo {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.hero-section img {
+  height: 384px;
+  width: 482px;
+}
+
+.carousel-item img {
+  height: 170px;
+  width: 280px;
+}
+
+.carousel .carousel-indicators li {
+  background-color: red;
+}
+.carousel .carousel-indicators li.active {
+  background-color: blue;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+  border: 1px solid;
+  height: 10px;
+  border-radius: 50%;
+  width: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.ingredientes,
+.preparacion {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.ingredientes h4,
+.preparacion h4 {
+  text-decoration: underline;
+}
+
+.otras-recetas {
+  font-family: "Cabin", sans-serif;
+}
+
+.otras-recetas h3 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.otras-recetas h5 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.otras-recetas p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.otras-recetas .card {
+  width: 18rem;
+}
+
+.red {
+  height: 534px;
+}
+
+.red h3 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.red p {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.red span {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.red button {
+  width: 233px;
+  height: 40px;
+}
+
+.black {
+  height: 125px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+}
